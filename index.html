@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razia Taheri</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght=0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- BLACK HERO SECTION -->
+    <div class="black-wrapper">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="logo">Razia</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <a href="#contact" class="nav-button"> Let's Talk </a>
+      </nav>
+
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="small-text">Hi, I'm Razia 👋</p>
+          <h1>I help businesses build <span>unique websites, with best designs.</span></h1>
+          <p class="hero-description">
+            I'm a web developer focused on creating simple, beautiful, and unique websites.
+          </p>
+          <a href="#contact" class="hero-button"> Let's work together </a>
+          <a href="projects.html" class="hero-button"> View my projects </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- FLOATING ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        
+        <!-- Center Floating Context Card -->
+        <div class="about-main-content">
+          <div class="about-label">About Me</div>
+          <h1 class="about-main-title">I'm Razia</h1>
+          <div class="about-text">
+            <p>
+              I'm a web developer who enjoys turning ideas into clean,
+              responsive, and visually engaging websites. I combine design and
+              code to create digital experiences that are simple, useful, and
+              easy to explore.
+            </p>
+            <p>
+              From Figma designs to fully developed websites, I enjoy working on
+              projects that challenge me to learn, experiment, and improve.
+              Explore some of the projects I've created and see how I bring
+              ideas to life.
+            </p>
+          </div>
+          <a href="projects.html" class="about-button"> View More Projects → </a>
+        </div>
+
+        <!-- 4 Absolute Floating Tilted Visuals -->
+        <div class="about-pic-card card-top-left">
+          <img src="images/project1.png" alt="Razia's design framework" />
+        </div>
+        <div class="about-pic-card card-top-right">
+          <img src="images/project2.png" alt="Razia's user interfaces" />
+        </div>
+        <div class="about-pic-card card-bottom-left">
+          <img src="images/Pqh8w6PuS.png" alt="Razia's development workflows" />
+        </div>
+        <div class="about-pic-card card-bottom-right">
+          <img src="images/image.png" alt="Razia's web layout system" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="help-section" id="services">
+      <div class="help-heading">
+        <p class="section-label">/ Let's work together</p>
+        <h1>Here's how<br />I can help <span>you</span></h1>
+      </div>
+
+      <div class="help-items">
+        <div class="help-item">
+          <div class="number">01</div>
+          <div class="item-content">
+            <h2>Web Development</h2>
+            <p>HTML · CSS · JavaScript · React<br />Responsive websites built with clean, maintainable code.</p>
+          </div>
+          <div class="item-arrow">→</div>
+        </div>
+        <div class="help-item">
+          <div class="number">02</div>
+          <div class="item-content">
+            <h2>Portfolio Websites</h2>
+            <p>Personal · Professional · Creative<br />Modern portfolio websites that help you present your work professionally.</p>
+          </div>
+          <div class="item-arrow">→</div>
+        </div>
+        <div class="help-item">
+          <div class="number">03</div>
+          <div class="item-content">
+            <h2>UI/UX Design</h2>
+            <p>Figma · Wireframes · Prototypes<br />Simple interfaces designed with usability and visual consistency in mind.</p>
+          </div>
+          <div class="item-arrow">→</div>
+        </div>
+        <div class="help-item">
+          <div class="number">04</div>
+          <div class="item-content">
+            <h2>Frontend Development</h2>
+            <p>React · JavaScript · Responsive Design<br />Turning designs into functional, responsive web experiences.</p>
+          </div>
+          <div class="item-arrow">→</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="newsletter" id="contact">
+      <div class="newsletter-left">
+        <p class="small-title">/ Let's build something exceptional</p>
+        <h2>Have an idea, a design, or a web project?<br />Tell me about it, and I will help you turn<br />it into a real website.</h2>
+      </div>
+      <div class="newsletter-arrow">→</div>
+
+      <div class="newsletter-right">
+        <h4>Have a project in mind? Let's make it happen.</h4>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <select name="subject" class="subject-select" required>
+            <option value="" disabled selected>Subject</option>
+            <option value="Website">Website</option>
+            <option value="UI/UX">UI/UX</option>
+            <option value="Figma">Figma</option>
+            <option value="React">React</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Portfolio">Portfolio</option>
+            <option value="Other">Other</option>
+          </select>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p class="privacy-text">I usually reply within 24 hours.</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="portfolio-footer">
+      <div class="footer-links">
+        <div class="footer-brand">
+          <div class="footer-logo">Razia.</div>
+          <p>Web developer creating clean, responsive websites and thoughtful digital experiences.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="mailto:raziataheri078@gmail.com">Email</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">GitHub</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Razia © 2026</p>
+        <p>Made with HTML · CSS · JavaScript · React</p>
+      </div>
+    </footer>
+  </body>
+</html>
